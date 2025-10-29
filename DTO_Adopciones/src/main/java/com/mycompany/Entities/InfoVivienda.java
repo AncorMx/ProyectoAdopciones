@@ -16,6 +16,7 @@ import java.util.List;
  *
  * @author Josel
  */
+
 @Entity
 public class InfoVivienda {
 

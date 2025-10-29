@@ -11,12 +11,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import java.util.List;
 
-/**
- *
- * @author Josel
- */
-
-
 @Entity
 public class Mascota {
 
@@ -29,7 +23,7 @@ public class Mascota {
     private int edad;
     private String enfermedadActual;
     private String rutaImagen;
-    private String estado; // "disponible", "indisponible" o "adoptada"
+    private String estado; 
 
     @OneToMany(mappedBy = "mascota")
     private List<SolicitudAdopcion> solicitudes;
@@ -37,7 +31,6 @@ public class Mascota {
     public Mascota() {
     }
 
-    // Getters y setters
     public Long getId() {
         return id;
     }

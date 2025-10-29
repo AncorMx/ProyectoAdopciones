@@ -20,7 +20,6 @@ import java.util.Date;
  * @author Josel
  */
 @Entity
-
 public class SolicitudAdopcion {
 
     @Id

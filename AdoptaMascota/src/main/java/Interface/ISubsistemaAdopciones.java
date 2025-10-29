@@ -4,8 +4,9 @@
  */
 package Interface;
 
-import DTO.MascotaDTO;
-import DTO.SolicitudAdopcion;
+
+import com.mycompany.DTO.MascotaDTO;
+import com.mycompany.DTO.SolicitudAdopcionDTO;
 import java.util.List;
 
 /**
@@ -24,7 +25,7 @@ public interface ISubsistemaAdopciones {
      * @param solicitud El DTO con toda la informacion.
      * @return true si el registro fue exitoso, false en caso contrario.
      */
-    boolean registrarSolicitud(SolicitudAdopcion solicitud);
+    boolean registrarSolicitud(SolicitudAdopcionDTO solicitud);
 
     /**
      * Obtiene el numero de contacto del refugio.

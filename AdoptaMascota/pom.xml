@@ -8,7 +8,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>DTOAdopciones</artifactId>
+            <artifactId>DTO_Adopciones</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

@@ -18,6 +18,13 @@ public class Razones_AntecedentesDTO {
     public Razones_AntecedentesDTO() {
     }
 
+    public Razones_AntecedentesDTO(String razonesParaAdoptar, String antecedentesConMascotas, boolean dispuestoARecibirSeguimiento, String cartaCompromiso) {
+        this.razonesParaAdoptar = razonesParaAdoptar;
+        this.antecedentesConMascotas = antecedentesConMascotas;
+        this.dispuestoARecibirSeguimiento = dispuestoARecibirSeguimiento;
+        this.cartaCompromiso = cartaCompromiso;
+    }
+
     public String getRazonesParaAdoptar() {
         return razonesParaAdoptar;
     }

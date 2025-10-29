@@ -14,11 +14,18 @@ import java.util.Set;
 public class InfoViviendaDTO {
 
     private String descripcion;
-    private String tipoVivienda; 
+    private String tipoVivienda;
     private String estadoVivienda;
     private Set<Image> imagenesVivienda;
 
     public InfoViviendaDTO() {
+    }
+
+    public InfoViviendaDTO(String descripcion, String tipoVivienda, String estadoVivienda, Set<Image> imagenesVivienda) {
+        this.descripcion = descripcion;
+        this.tipoVivienda = tipoVivienda;
+        this.estadoVivienda = estadoVivienda;
+        this.imagenesVivienda = imagenesVivienda;
     }
 
     public String getDescripcion() {

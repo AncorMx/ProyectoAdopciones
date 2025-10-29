@@ -10,22 +10,29 @@ import java.awt.Image;
  *
  * @author Josel
  */
-
-
-public class InfoPersonalDTO {
+public class UsuarioDTO {
 
     private String nombre;
     private int edad;
     private String direccion;
     private Image imagenIdentificacion;
-    private String sexo; 
-    private String estatusEmpleo; 
-    private double salarioMensual; 
+    private String sexo;
+    private String estatusEmpleo;
+    private double salarioMensual;
 
-    public InfoPersonalDTO() {
+    public UsuarioDTO() {
     }
 
-    // Getters y setters
+    public UsuarioDTO(String nombre, int edad, String direccion, Image imagenIdentificacion, String sexo, String estatusEmpleo, double salarioMensual) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.direccion = direccion;
+        this.imagenIdentificacion = imagenIdentificacion;
+        this.sexo = sexo;
+        this.estatusEmpleo = estatusEmpleo;
+        this.salarioMensual = salarioMensual;
+    }
+
     public String getNombre() {
         return nombre;
     }

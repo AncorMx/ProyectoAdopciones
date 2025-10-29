@@ -8,9 +8,6 @@ package com.mycompany.DTO;
  *
  * @author Josel
  */
-
-
-
 public class MascotaDTO {
 
     private Long id;
@@ -21,6 +18,9 @@ public class MascotaDTO {
     private String enfermedadActual;
     private String rutaImagen;
     private String estado;
+
+    public MascotaDTO() {
+    }
 
     public MascotaDTO(String nombre, String especie, String raza, int edad, String enfermedadActual, String rutaImagen, String estado) {
         this.nombre = nombre;
